@@ -30,3 +30,22 @@ This project estimates the calorie content of food items from images using AI-po
 - YOLOv8 detects food items in the image.
 - For each detected food, USDA API is queried to retrieve calories per 100g.
 - Estimated calories are calculated based on serving size.
+
+<div align="center">
+
+#### Main Page
+
+  <img src="https://i.imgur.com/0Lq5Nj5.png" alt="No Traffic State" />
+</div>
+
+
+## Running the Project
+
+1. Clone the repository and navigate to the project folder:
+2. Install dependencies
+3. Run the app:
+
+    ```bash
+   uvicorn main:app --reload
+
+
